@@ -14,13 +14,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int weekday = 5;
-        int weekend = 9;
-        int optimalHours = 7 * 8;
-
-        int actualHours = weekday * 5 + weekend * 2;
-        int solution = optimalHours - actualHours;
-        display(solution);
+        int day1 = 15;
+        int day2 = 22;
+        int day3 = 18;
+        display((day1 + day2 + day3) / 3);
     }
 
     public void display (int i) {
