@@ -3,6 +3,10 @@ package com.example.android.practiceset2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * Test Comment for Git
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
