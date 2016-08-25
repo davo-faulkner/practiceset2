@@ -10,7 +10,8 @@
     tools:context="com.example.android.practiceset2.MainActivity">
 
     <TextView
+        android:id="@+id/display_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!!!" />
 </RelativeLayout>
