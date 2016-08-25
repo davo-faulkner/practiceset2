@@ -14,13 +14,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int dollars = 40;
-        int dollarsToYen = 119;
-        int yen = dollarsToYen * dollars;
-        display(yen);
+        String firstName = "Lyla";
+        String lastName = "Fujiwara";
+        String contactInfo = firstName + " " + lastName;
+        contactInfo = "<" + lastName + "." + firstName + "@justjava.com>";
+        display(contactInfo);
     }
 
-    public void display (int i) {
+    public void display (String i) {
         TextView t = (TextView) findViewById(R.id.display_text_view);
         t.setText(""+i);
     }
